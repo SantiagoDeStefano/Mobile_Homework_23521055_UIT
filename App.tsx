@@ -1,10 +1,11 @@
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import FlappyBirdScreen from './Lab2/FlappyBirdScreen';
+import { StatusBar } from "expo-status-bar";
+import SpeechTranslatorScreen from "./Lab2_TextToSpeech/SpeechTranslatorScreen";
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <FlappyBirdScreen onPlay={() => console.log('Play pressed!')} />
-    </SafeAreaProvider>
+    <>
+      <StatusBar style="light" />
+      <SpeechTranslatorScreen />
+    </>
   );
 }
