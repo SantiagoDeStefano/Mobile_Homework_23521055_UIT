@@ -1,11 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import SpeechTranslatorScreen from "./Lab2_TextToSpeech/SpeechTranslatorScreen";
+import ImageGalleryScreen from "./Lab3/ImageGalleryScreen";
 
 export default function App() {
   return (
     <>
-      <StatusBar style="light" />
-      <SpeechTranslatorScreen />
+      <StatusBar style="dark" />
+      <ImageGalleryScreen />
     </>
   );
 }
