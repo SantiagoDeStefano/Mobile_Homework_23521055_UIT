@@ -1,11 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import ImageGalleryScreen from "./Lab3/ImageGalleryScreen";
+import DictionaryScreen from "./Lab4_InClass/DictionaryScreen";
 
 export default function App() {
   return (
     <>
-      <StatusBar style="dark" />
-      <ImageGalleryScreen />
+      <StatusBar style="light" />
+      <DictionaryScreen />
     </>
   );
 }
