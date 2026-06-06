@@ -1,5 +1,5 @@
-import FitnessTrackerScreen from "./Lab5_Real/FitnessTrackerScreen";
+import DocumentFilterScreen from "./Lab6/DocumentFilterScreen";
 
 export default function App() {
-  return <FitnessTrackerScreen />;
+  return <DocumentFilterScreen />;
 }
